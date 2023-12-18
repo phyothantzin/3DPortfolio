@@ -344,7 +344,7 @@ const projects = [
       },
     ],
     image: theshopmobile,
-    // live_site: "http://theshopmobile.infinityfreeapp.com/",
+    live_site: "http://theshopmobile.infinityfreeapp.com/",
     source_code_link: "https://github.com/",
   },
   {
