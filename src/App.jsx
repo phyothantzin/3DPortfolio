@@ -29,6 +29,12 @@ const App = () => {
           <Contact />
           <StarsCanvas />
         </div>
+
+        <footer className="footer p-6">
+          <p className="text-white font-medium text-center">
+            Copyright © 2023 Phyo Thant. All rights reserved.
+          </p>
+        </footer>
       </div>
     </BrowserRouter>
   );
