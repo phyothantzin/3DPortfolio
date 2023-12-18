@@ -20,7 +20,9 @@ const App = () => {
         </div>
         <About />
         <Experience />
-        <Tech />
+        <div className="lg:block hidden">
+          <Tech />
+        </div>
         <Works />
         {/* <Feedbacks /> */}
         <div className="relative z-0">
