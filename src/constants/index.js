@@ -6,6 +6,7 @@ import {
   docker,
   figma,
   git,
+  goldenasia,
   html,
   javascript,
   laragigs,
@@ -15,10 +16,12 @@ import {
   nextjs,
   nodejs,
   onlinemarketplace,
+  orange,
   php,
   reactjs,
   recipesApp,
   redux,
+  thaya,
   thebeautifulyangon,
   thefoodmobile,
   theshopmobile,
@@ -408,6 +411,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
+    image: goldenasia,
+    live_site: "https://goldenasiaexpedition.com/",
   },
   {
     name: "Orange Digital",
@@ -427,6 +432,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
+    image: orange,
+    live_site: "https://orangedigitalmm.vercel.app/",
   },
   {
     name: "Thaya Engineering",
@@ -446,6 +453,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
+    image: thaya,
+    live_site: "https://thayaengineering.com/",
   },
 ];
 
