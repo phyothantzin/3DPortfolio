@@ -1,12 +1,13 @@
+import { fadeIn, textVariant } from "../utils/motion";
+import { github, livesite } from "../assets";
+
+import { SectionWrapper } from "../hoc";
 /* eslint-disable react-refresh/only-export-components */
 /* eslint-disable react/prop-types */
 import Tilt from "react-parallax-tilt";
 import { motion } from "framer-motion";
-import { styles } from "../styles";
-import { github, livesite } from "../assets";
-import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
-import { fadeIn, textVariant } from "../utils/motion";
+import { styles } from "../styles";
 import { useMediaQuery } from "react-responsive";
 
 const ProjectCard = ({
@@ -39,17 +40,19 @@ const ProjectCard = ({
               />
 
               <div className="absolute inset-0 flex justify-end m-3 card-img_hover gap-2">
-                <div
-                  onClick={() => window.open(source_code_link, "_blank")}
-                  title={`Visit ${name} Github Repo`}
-                  className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
-                >
-                  <img
-                    src={github}
-                    alt="github"
-                    className="w-1/2 h-1/2 object-contain"
-                  />
-                </div>
+                {source_code_link && (
+                  <div
+                    onClick={() => window.open(source_code_link, "_blank")}
+                    title={`Visit ${name} Github Repo`}
+                    className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+                  >
+                    <img
+                      src={github}
+                      alt="github"
+                      className="w-1/2 h-1/2 object-contain"
+                    />
+                  </div>
+                )}
 
                 {live_site && (
                   <div
