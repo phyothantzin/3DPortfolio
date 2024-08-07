@@ -1,32 +1,32 @@
 import {
-  mobile,
   backend,
   creator,
-  web,
-  javascript,
-  typescript,
-  html,
   css,
-  reactjs,
-  nextjs,
-  php,
-  laravel,
-  redux,
-  nodejs,
-  mongodb,
-  git,
-  figma,
-  docker,
-  threejs,
-  thebeautifulyangon,
-  todoapp,
-  onlinemarketplace,
-  theshopmobile,
-  thefoodmobile,
   devoverflow,
-  theshoponline,
-  recipesApp,
+  docker,
+  figma,
+  git,
+  html,
+  javascript,
   laragigs,
+  laravel,
+  mobile,
+  mongodb,
+  nextjs,
+  nodejs,
+  onlinemarketplace,
+  php,
+  reactjs,
+  recipesApp,
+  redux,
+  thebeautifulyangon,
+  thefoodmobile,
+  theshopmobile,
+  theshoponline,
+  threejs,
+  todoapp,
+  typescript,
+  web,
 } from "../assets";
 
 export const navLinks = [
@@ -389,6 +389,63 @@ const projects = [
     ],
     image: laragigs,
     source_code_link: "https://github.com/phyothantzin/laragigs/",
+  },
+  {
+    name: "Golden Asia Expedition",
+    description:
+      "A travel and tour website with seamless Stripe integration for secure payments. Users can book tours, view destinations, and manage their itineraries. Built with Next.js 14 and TailwindCSS.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "stripe",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
+    ],
+  },
+  {
+    name: "Orange Digital",
+    description:
+      "A digital marketing company portfolio website showcasing services, case studies, and client testimonials. Built with Next.js, Framer Motion for animations, and TailwindCSS for styling.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "framer-motion",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
+    ],
+  },
+  {
+    name: "Thaya Engineering",
+    description:
+      "An engineering company portfolio website showcasing their projects, services, and expertise. Built with Laravel, Bootstrap for responsive design, and MySQL for database management.",
+    tags: [
+      {
+        name: "laravel",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "bootstrap",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mysql",
+        color: "pink-text-gradient",
+      },
+    ],
   },
 ];
 
