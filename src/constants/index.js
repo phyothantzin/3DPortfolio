@@ -30,6 +30,9 @@ import {
   todoapp,
   typescript,
   web,
+  vetail,
+  unecmm,
+  nutricoach,
 } from "../assets";
 
 export const navLinks = [
@@ -455,6 +458,67 @@ const projects = [
     ],
     image: thaya,
     live_site: "https://thayaengineering.com/",
+  },
+  {
+    name: "Vetail",
+    description:
+      "An all in one eCommerce super app built with micro frontend architecture to ensure modular scaling. I developed critical modules including a real time push notification system delivery management and a member point system while serving as a technical lead for frontend architectural decisions.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "micro-frontend",
+        color: "green-text-gradient",
+      },
+      {
+        name: ".NET",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: vetail,
+  },
+  {
+    name: "UNEC MM",
+    description:
+      "A comprehensive learning management platform where I served as the lead engineer for both admin and client sides. I architected the core system and implemented essential features such as learning modules, progress tracking and complex role based permission management.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "shadcn",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: unecmm,
+    live_site: "https://unec.edu.mm",
+  },
+  {
+    name: "NutriCoach",
+    description:
+      "A modern healthcare application designed to streamline wellness management. I am leading the frontend development for features including a bmi calculator a healthcare marketplace and a doctor patient chat system using modular and scalable components.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "shadcn",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tanstack/react-query",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: nutricoach,
   },
 ];
 

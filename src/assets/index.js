@@ -38,6 +38,9 @@ import thefoodmobile from "./thefoodmobile.png";
 import therecipesapp from "./therecipesapp.png";
 import theshopmobile from "./theshopmobile.png";
 import theshoponline from "./theshoponline.png";
+import vetail from "./vetail.png";
+import unecmm from "./unecmm.png";
+import nutricoach from "./nutricoach.png";
 import threejs from "./tech/threejs.svg";
 import todoapp from "./todo-app.png";
 import tripguide from "./tripguide.png";
@@ -82,6 +85,9 @@ export {
   thebeautifulyangon,
   thefoodmobile,
   theshopmobile,
+  vetail,
+  unecmm,
+  nutricoach,
   todoapp,
   onlinemarketplace,
   devoverflow,
