@@ -478,6 +478,7 @@ const projects = [
       },
     ],
     image: vetail,
+    live_site: "https://buyer.vetail.app/",
   },
   {
     name: "UNEC MM",
